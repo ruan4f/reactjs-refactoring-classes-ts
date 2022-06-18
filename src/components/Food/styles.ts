@@ -5,7 +5,7 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #161B22;
+  background: #f0f0f5;
   border-radius: 8px;
 
   header {
@@ -32,11 +32,11 @@ export const Container = styled.div<ContainerProps>`
     padding: 30px;
 
     h2 {
-      color: #ccc;
+      color: #3d3d4d;
     }
 
     p {
-      color: #ccc;
+      color: #3d3d4d;
 
       margin-top: 16px;
     }
@@ -59,7 +59,7 @@ export const Container = styled.div<ContainerProps>`
     align-items: center;
 
     padding: 20px 30px;
-    background: #272c33;
+    background: #e4e4eb;
     border-radius: 0px 0px 8px 8px;
 
     div.icon-container {
@@ -88,7 +88,7 @@ export const Container = styled.div<ContainerProps>`
       align-items: center;
 
       p {
-        color: #fff;
+        color: #3d3d4d;
       }
 
       .switch {
