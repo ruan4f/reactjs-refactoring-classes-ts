@@ -1,7 +1,11 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
-  background: #f0f0f5;
+interface ContainerProps {
+  available: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
+  background: #161B22;
   border-radius: 8px;
 
   header {
@@ -28,11 +32,11 @@ export const Container = styled.div`
     padding: 30px;
 
     h2 {
-      color: #3d3d4d;
+      color: #ccc;
     }
 
     p {
-      color: #3d3d4d;
+      color: #ccc;
 
       margin-top: 16px;
     }
@@ -55,7 +59,7 @@ export const Container = styled.div`
     align-items: center;
 
     padding: 20px 30px;
-    background: #e4e4eb;
+    background: #272c33;
     border-radius: 0px 0px 8px 8px;
 
     div.icon-container {
@@ -84,7 +88,7 @@ export const Container = styled.div`
       align-items: center;
 
       p {
-        color: #3d3d4d;
+        color: #fff;
       }
 
       .switch {
